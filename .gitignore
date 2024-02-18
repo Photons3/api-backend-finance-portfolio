@@ -27,18 +27,28 @@ nupkg/
 *.sln.docstates
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
+debug/
+debugPublic/
+release/
+releases/
 x64/
 x86/
 build/
 bld/
-[Bb]in/
-[Oo]bj/
-[Oo]ut/
+bin/
+obj/
+out/
 msbuild.log
 msbuild.err
 msbuild.wrn
 .fake
+bin/Debug/net8.0/api.dll
+bin/Debug/net8.0/api.exe
+bin/Debug/net8.0/api.pdb
+obj/Debug/net8.0/api.AssemblyInfo.cs
+obj/Debug/net8.0/api.AssemblyInfoInputs.cache
+obj/Debug/net8.0/api.dll
+obj/Debug/net8.0/api.pdb
+obj/Debug/net8.0/apphost.exe
+obj/Debug/net8.0/ref/api.dll
+obj/Debug/net8.0/refint/api.dll
