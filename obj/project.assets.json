@@ -4470,11 +4470,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Source\\api-backend-finance-portfolio\\api.csproj",
+      "projectUniqueName": "C:\\Source\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Source\\api-backend-finance-portfolio\\api.csproj",
+      "projectPath": "C:\\Source\\api\\api.csproj",
       "packagesPath": "C:\\Users\\jeste\\.nuget\\packages\\",
-      "outputPath": "C:\\Source\\api-backend-finance-portfolio\\obj\\",
+      "outputPath": "C:\\Source\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jeste\\AppData\\Roaming\\NuGet\\NuGet.Config",
