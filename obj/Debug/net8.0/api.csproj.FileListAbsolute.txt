@@ -412,3 +412,7 @@ C:\Source\api\obj\Debug\net8.0\scopedcss\bundle\api.styles.css
 C:\Source\api\obj\Debug\net8.0\api.csproj.Up2Date
 C:\Source\api\obj\Debug\net8.0\api.genruntimeconfig.cache
 C:\Source\api\obj\Debug\net8.0\ref\api.dll
+C:\Source\api\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Source\api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Source\api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Source\api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

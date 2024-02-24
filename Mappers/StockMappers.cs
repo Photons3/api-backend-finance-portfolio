@@ -10,7 +10,7 @@ namespace api.Mappers
 {
     public static class StockMappers
     {
-        public static StockDto toStockDto(this Stock stockModel)
+        public static StockDto ToStockDto(this Stock stockModel)
         {
             return new StockDto
             {
@@ -20,21 +20,22 @@ namespace api.Mappers
                 Purchase = stockModel.Purchase,
                 LastDiv = stockModel.LastDiv,
                 Industry = stockModel.Industry,
-                MarketCap = stockModel.MarketCap
-            };
-        }
-
-        public static Stock toStockFromCreateDto(this CreateStockRequestDto stockRequestDto)
-        {
-            return new Stock
-            {
-                Symbol = stockRequestDto.Symbol,
-                CompanyName = stockRequestDto.CompanyName,
-                Purchase = stockRequestDto.Purchase,
-                LastDiv = stockRequestDto.LastDiv,
-                Industry = stockRequestDto.Industry,
-                MarketCap = stockRequestDto.MarketCap
-            };
-        }
+                MarketCap = stockModel.MarketCap,
+                Comments = stockModel.Comments.Select(c => c.ToCommentDto()).ToList()
+        };
     }
+
+    public static Stock ToStockFromCreateDto(this CreateStockRequestDto stockRequestDto)
+    {
+        return new Stock
+        {
+            Symbol = stockRequestDto.Symbol,
+            CompanyName = stockRequestDto.CompanyName,
+            Purchase = stockRequestDto.Purchase,
+            LastDiv = stockRequestDto.LastDiv,
+            Industry = stockRequestDto.Industry,
+            MarketCap = stockRequestDto.MarketCap
+        };
+    }
+}
 }

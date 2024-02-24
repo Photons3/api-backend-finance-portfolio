@@ -29,7 +29,7 @@ namespace api.Controllers
             // Deferred Execution
             var stocks = await _stockRepo.GetAllAsync();
 
-            var stockDto = stocks.Select(s => s.toStockDto());
+            var stockDto = stocks.Select(s => s.ToStockDto());
 
             return Ok(stocks);
         }
@@ -50,9 +50,9 @@ namespace api.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateStockRequestDto stockDto)
         {
-            var stockModel = stockDto.toStockFromCreateDto();
+            var stockModel = stockDto.ToStockFromCreateDto();
             await _stockRepo.CreateAsync(stockModel);
-            return CreatedAtAction(nameof(GetById), new { id = stockModel.Id }, stockModel.toStockDto());
+            return CreatedAtAction(nameof(GetById), new { id = stockModel.Id }, stockModel.ToStockDto());
         }
 
         [HttpPut]
@@ -66,7 +66,7 @@ namespace api.Controllers
                 return NotFound();
             }
 
-            return Ok(stockModel.toStockDto());
+            return Ok(stockModel.ToStockDto());
         }
 
         [HttpDelete]
