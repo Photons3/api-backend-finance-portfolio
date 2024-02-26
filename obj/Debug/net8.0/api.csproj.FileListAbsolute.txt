@@ -420,3 +420,5 @@ D:\Users\jeste\sources\portfolio-finance\api\bin\Debug\net8.0\Microsoft.AspNetCo
 D:\Users\jeste\sources\portfolio-finance\api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\Users\jeste\sources\portfolio-finance\api\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\Users\jeste\sources\portfolio-finance\api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Users\jeste\sources\portfolio-finance\api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Users\jeste\sources\portfolio-finance\api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
