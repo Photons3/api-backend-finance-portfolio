@@ -22,20 +22,33 @@ namespace api.Mappers
                 Industry = stockModel.Industry,
                 MarketCap = stockModel.MarketCap,
                 Comments = stockModel.Comments.Select(c => c.ToCommentDto()).ToList()
-        };
-    }
+            };
+        }
 
-    public static Stock ToStockFromCreateDto(this CreateStockRequestDto stockRequestDto)
-    {
-        return new Stock
+        public static Stock ToStockFromCreateDto(this CreateStockRequestDto stockRequestDto)
         {
-            Symbol = stockRequestDto.Symbol,
-            CompanyName = stockRequestDto.CompanyName,
-            Purchase = stockRequestDto.Purchase,
-            LastDiv = stockRequestDto.LastDiv,
-            Industry = stockRequestDto.Industry,
-            MarketCap = stockRequestDto.MarketCap
-        };
+            return new Stock
+            {
+                Symbol = stockRequestDto.Symbol,
+                CompanyName = stockRequestDto.CompanyName,
+                Purchase = stockRequestDto.Purchase,
+                LastDiv = stockRequestDto.LastDiv,
+                Industry = stockRequestDto.Industry,
+                MarketCap = stockRequestDto.MarketCap
+            };
+        }
+        
+        public static Stock ToStockFromFMP(this FMPStock fMPStock)
+        {
+            return new Stock
+            {
+                Symbol = fMPStock.symbol,
+                CompanyName = fMPStock.companyName,
+                Purchase = (decimal)fMPStock.price,
+                LastDiv = (decimal)fMPStock.lastDiv,
+                Industry = fMPStock.industry,
+                MarketCap = fMPStock.mktCap
+            };
+        }
     }
-}
 }
