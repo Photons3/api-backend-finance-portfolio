@@ -1,4 +1,4 @@
-# API End Point for Stock Information Webpage
+# Backend Finance Portfolio .NET Core API
 This is should be run together with the front end React Webpage
 ![image](https://github.com/Photons3/api-backend-finance-portfolio/assets/18119113/2ca2d368-863a-434a-b38f-65f763ffd43b)
 
