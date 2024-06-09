@@ -49,7 +49,7 @@ namespace api.Controllers
             if (stock == null)
             {
                 stock = await _fMPService.FindStockBySymbolAsync(symbol);
-                if (stock == null) return BadRequest("This stock deoes not exist");
+                if (stock == null) return BadRequest("This stock does not exist");
 
                 await _stockRepo.CreateAsync(stock);
             }
