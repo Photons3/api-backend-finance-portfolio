@@ -25,7 +25,6 @@ D:\Users\jeste\sources\portfolio-finance\api\obj\Debug\net8.0\staticwebassets\ms
 D:\Users\jeste\sources\portfolio-finance\api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.api.props
 D:\Users\jeste\sources\portfolio-finance\api\obj\Debug\net8.0\staticwebassets.pack.json
 D:\Users\jeste\sources\portfolio-finance\api\obj\Debug\net8.0\scopedcss\bundle\api.styles.css
-D:\Users\jeste\sources\portfolio-finance\api\obj\Debug\net8.0\api.csproj.CopyComplete
 D:\Users\jeste\sources\portfolio-finance\api\obj\Debug\net8.0\api.dll
 D:\Users\jeste\sources\portfolio-finance\api\obj\Debug\net8.0\refint\api.dll
 D:\Users\jeste\sources\portfolio-finance\api\obj\Debug\net8.0\api.pdb
@@ -424,3 +423,4 @@ D:\Users\jeste\sources\portfolio-finance\api\bin\Debug\net8.0\Microsoft.AspNetCo
 D:\Users\jeste\sources\portfolio-finance\api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Source\api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Source\api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Users\jeste\sources\portfolio-finance\api\obj\Debug\net8.0\api.csproj.Up2Date
